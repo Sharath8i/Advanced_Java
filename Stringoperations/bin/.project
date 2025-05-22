@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>PerformanceTest</name>
+	<name>Stringoperations</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -16,7 +16,7 @@
 	</natures>
 	<filteredResources>
 		<filter>
-			<id>1747925807235</id>
+			<id>1747920396570</id>
 			<name></name>
 			<type>30</type>
 			<matcher>
