@@ -51,8 +51,7 @@ Adding elements, 2. Adding element at specific index, 3. Adding multiple element
 [🔗 Output Screenshot](https://github.com/Sharath8i/Advanced_Java/blob/main/2a.Stringoperations/StringOperations.png)
 
 
-## 2b. Develop a Java program to make a Performance Test on StringBuffer and StringBuilder for appending the string ‘AIET’ for 10000 times both in the StringBuffer and StringBuilder. Justify
-## your answer which one is better.
+## 2b. Develop a Java program to make a Performance Test on StringBuffer and StringBuilder for appending the string ‘AIET’ for 10000 times both in the StringBuffer and StringBuilder. Justify your answer which one is better.
 
 [🔗 Output Screenshot](https://github.com/Sharath8i/Advanced_Java/blob/main/2b%20PerformanceTest/PerformanceTest.png)
 
