@@ -177,7 +177,8 @@ countWords()
 [🔗 Output Screenshot 2](https://github.com/Sharath8i/Advanced_Java/blob/main/Lab7_CookieManagement/Cookie%20Management2.png)
 [🔗 Output Screenshot 3](https://github.com/Sharath8i/Advanced_Java/blob/main/Lab7_CookieManagement/Cookie%20Management3.png)
 
-## 8a Q1. Read all the existing records from the table coffee which is from the database test and insert a new coffee product into it [Create a table coffee with fields ( id,coffee_name,price)] using HTML ## and JSP to get the fields and display the results respectively
+## 8a Q1. Read all the existing records from the table coffee which is from the database test and insert a new coffee product into it [Create a table coffee with fields ( id,coffee_name,price)] using HTML
+## and JSP to get the fields and display the results respectively
 
 [🔗 Output Screenshot](https://github.com/Sharath8i/Advanced_Java/blob/main/Lab8/8a_8b/addCoffee1..png)
 [🔗 Output Screenshot](https://github.com/Sharath8i/Advanced_Java/blob/main/Lab8/8a_8b/addCoffee.png)
@@ -203,8 +204,7 @@ countWords()
 [🔗 Output Screenshot 2 ](https://github.com/Sharath8i/Advanced_Java/blob/main/Lab8/8c_8d/update1.png)
 [🔗 Output Screenshot 3](https://github.com/Sharath8i/Advanced_Java/blob/main/Lab8/8c_8d/update2.png)
 
-## 9a. Read all the existing records from the table coffee which is from the database test and delete an existing coffee product from the table with its id and display the rest of the records using
-## HTML and JSP to get the field and display the results respectively
+## 9a. Read all the existing records from the table coffee which is from the database test and delete an existing coffee product from the table with its id and display the rest of the records using HTML and JSP to get the field and display the results respectively
 
 [🔗 Output Screenshot](https://github.com/Sharath8i/Advanced_Java/blob/main/Lab9/9a_9b/Delete%20Coffee.png)
 [🔗 Output Screenshot](https://github.com/Sharath8i/Advanced_Java/blob/main/Lab9/9a_9b/Delete%20Coffee%20(1).png)
