@@ -26,240 +26,128 @@ Adding elements, 2. Adding element at specific index, 3. Adding multiple element
 ## 1c. Linked List Programs
 1.Write a Java program to iterate through all elements in a linked list starting at the specified position ( 2nd) using iterator ( hint : Iterator iteratorobj = listobj.listIterator(1)) 
 
-[🔗 Output Screenshot](https://github.com/Sharath8i/Advanced-Java/blob/main/Exp1-ListInterface/IterateFromSecond.png)
+[🔗 Output Screenshot](https://github.com/Sharath8i/Advanced_Java/blob/main/1c.%20Linked%20List%20Programs/IterateFromSecondPosition.png)
 
 2.Write a Java program to iterate a linked list in reverse order (using objlist.descendingIterator()) 
 
-[🔗 Output Screenshot](https://github.com/Sharath8i/Advanced-Java/blob/main/Exp1-ListInterface/ReverseIterate.png)
+[🔗 Output Screenshot](https://github.com/Sharath8i/Advanced_Java/blob/main/1c.%20Linked%20List%20Programs/IterateReverseOrder.png)
 
 3.Write a Java program to insert the specified element at the end of a linked list.( using l_listobj.offerLast("Pink")) 
 
-[🔗 Output Screenshot](https://github.com/Sharath8i/Advanced-Java/blob/main/Exp1-ListInterface/InsertAtEnd.png)
+[🔗 Output Screenshot](https://github.com/Sharath8i/Advanced_Java/blob/main/1c.%20Linked%20List%20Programs/InsertAtEnd.png)
 
 4.Write a Java program to display elements and their positions in a linked list ( using l_listobj.get(p) ) 
 
-[🔗 Output Screenshot](https://github.com/Sharath8i/Advanced-Java/blob/main/Exp1-ListInterface/DisplayWithPositions.png)
+[🔗 Output Screenshot](https://github.com/Sharath8i/Advanced_Java/blob/main/1c.%20Linked%20List%20Programs/DisplayElementsWithPosition.png)
 
 5.Write a Java program that swaps two elements ( first and third elements ) in a linked list ( using Collections.swap(l_list, 0, 2)) 
 
-[🔗 Output Screenshot](https://github.com/Sharath8i/Advanced-Java/blob/main/Exp1-ListInterface/SwapElements.png)
-
-## 2. Develop a Java program for adding elements [Apple, Banana, Orange] into HashSet, TreeSet and LinkedHashSet to perform the following operations directed as follows
-HashSet Demonstration :HashSet after adding elements: [Apple, Orange, Banana], Size of HashSet: 3, Is HashSet empty? false, Contains 'Apple'? true, Contains 'Grape'? False, After removing 'Banana': [Apple, Orange] TreeSet Demonstration : TreeSet (automatically sorted): [Elephant, Lion, Tiger, Zebra] LinkedHashSet Demonstration: LinkedHashSet (maintains insertion order): [Red, Green, Blue] Set Operations Demonstration:Union of sets: [1, 2, 3, 4, 5, 6, 7, 8], Intersection of sets: [4, 5] Difference of sets (set1 - set2): [1, 2, 3] Iteration Demonstration : Using for-each loop,Using Iterator 
-
-[🔗 Output Screenshot](https://github.com/Sharath8i/Advanced-Java/blob/main/Exp2-SetInterface/map.png)
+[🔗 Output Screenshot](https://github.com/Sharath8i/Advanced_Java/blob/main/1c.%20Linked%20List%20Programs/SwapElementsInList.png)
 
 
-## HashMap
-1.Write a Java program to traverse / iterate all the keys with the specified value in a HashMap (1,”Apple”), (2,”Strawberry”), (3,”Pear”), (4,”Cucumber”), (5,”Grapes”) [ hint : 6. Iterating Over Map in the worked out example] 
+## 2a. Develop a java program for performing various string operations with different string handling functions directed as follows:
+## String Creation and Basic Operations, Length and Character Access, String Comparison, String Searching, Substring Operations , String Modification, Whitespace Handling, String Concatenation, String Splitting, StringBuilder Demo, String Formatting , Validate Email with contains( ) and startsWith() and endsWith() 
 
-[🔗 Output Screenshot](https://github.com/Sharath8i/Advanced-Java/blob/main/Exp2-SetInterface/p1.png)
+[🔗 Output Screenshot](https://github.com/Sharath8i/Advanced_Java/blob/main/2a.Stringoperations/string%20operations.png)
 
-2.Remove the following all elements from the HashMap then verify that its size is zero and include once again following elements and check its size (1,”Banana”), (2,”Orange”), (3,”Guava”), (4,”Pomegranate ”), (5,”Amla”) [ Hint : clear() , size() and put()] 
 
-[🔗 Output Screenshot](https://github.com/Sharath8i/Advanced-Java/blob/main/Exp2-SetInterface/p2.png)
+## 2b. Develop a Java program to make a Performance Test on StringBuffer and StringBuilder for appending the string ‘AIET’ for 10000 times both in the StringBuffer and StringBuilder. Justify
+## your answer which one is better.
 
-3.Write a Java program to copy all mappings from the specified map to another map as shown below Hashmap1 => ( 1, "Red") ,(2, "Green"), (3, "Black") Hashmap2 => (4, "White"),(5, "Blue"),(6, "Orange") Add all the values of Hashmap1 intoLiberation Serif Hashmap2 and print the result 
+[🔗 Output Screenshot](https://github.com/Sharath8i/Advanced_Java/blob/main/2b%20PerformanceTest/PerformanceTest.png)
 
-[🔗 Output Screenshot](https://github.com/Sharath8i/Advanced-Java/blob/main/Exp2-SetInterface/p3.png)
-
-4.Write a Java program to check whether a map contains Key-Values mappings (empty) or not after adding all the following elements into Hashmap and after removing all the elements from the Hashmap. (1, "Red"),(2, "Green"), (3, "Black"), (4, "White"),(5, "Blue")
-
-[🔗 Output Screenshot](https://github.com/Sharath8i/Advanced-Java/blob/main/Exp2-SetInterface/p4.png)
-## TreeMap
-1.Write a Java program to traverse / iterate all the keys with the specified value in a TreeMap (1,”Apple”), (2,”Strawberry”), (3,”Pear”), (4,”Cucumber”), (5,”Grapes”) [ hint : put() ; for (Map.Entry<Integer,String> entry : tree_map.entrySet()); getKey() and getValue()] 
-
-[🔗 Output Screenshot](https://github.com/Sharath8i/Advanced-Java/blob/main/Exp2-SetInterface/p5.png)
-
-2.Write a Java program to search for keys C4 and C5 are present or not in the following Tree Map. ("C1", "Red"); ("C2", "Green"); ("C3", "Black");("C4", "White") 
-
-[🔗 Output Screenshot](https://github.com/Sharath8i/Advanced-Java/blob/main/Exp2-SetInterface/p6.png)
-
-3.Remove the following all elements from the TreeMap then verify that its size is zero and include once again following elements and iterate them and check its size (1,”Banana”), (2,”Orange”), (3,”Guava”), (4,”Pomegranate ”), (5,”Amla”) [ Hint : clear() , size() and put()] 
-
-[🔗 Output Screenshot](https://github.com/Sharath8i/Advanced-Java/blob/main/Exp2-SetInterface/p7.png)
-
-4.Write a Java program to get the first (lowest) key and the last (highest) key currently in the following Treemap. ("C2", "Red"),("C1", "Green"), ("C4", "Black"), ("C3", "White") [ Hint : firstKey() and lastKey() ] 
-
-[🔗 Output Screenshot](https://github.com/Sharath8i/Advanced-Java/blob/main/Exp2-SetInterface/p8.png)
-
-## LinkedHashMap
-1.Write a Java program to traverse / iterate all the keys with the specified value in a linked HashMap (1,”Apple”), (2,”Strawberry”), (3,”Pear”), (4,”Cucumber”), (5,”Grapes”) and display only elderly entered 4 elements only [ hint : Refer to 5. LinkedHashMap Demonstration of worked out example] 
-
-[🔗 Output Screenshot](https://github.com/Sharath8i/Advanced-Java/blob/main/Exp2-SetInterface/p9.png)
-
-2.Include the following elements into the LinkedHashMap called programminglanguages and print all of them. ("Java", 1995);("Python", 1991);(“JavaScript", 1995);("C++", 1985); 
-
-[🔗 Output Screenshot](https://github.com/Sharath8i/Advanced-Java/blob/main/Exp2-SetInterface/p10.png)
-
-3.Include the following elements into the LinkedHashMap called programminglanguages and print as follows. Java was developed in 1995 Python was developed in 1991. JavaScript was developed in 1995 C++ was developed in 1985
-
-[🔗 Output Screenshot](https://github.com/Sharath8i/Advanced-Java/blob/main/Exp2-SetInterface/p11.png)
-
-4.Add elements in the same order in the LinkedHaspMap using for() loop and put() String[] keys = {"C", "A", "B", "E", "D"}; Integer[] values = {3, 1, 2, 5, 4}; 
-
-[🔗 Output Screenshot](https://github.com/Sharath8i/Advanced-Java/blob/main/Exp2-SetInterface/p12.png)
 
 ## 3a. Develop a java program for performing various string operations with different string handling functions directed as follows:
-String Creation and Basic Operations, Length and Character Access, String Comparison, String Searching, Substring Operations , String Modification, Whitespace Handling, String Concatenation, String Splitting, StringBuilder Demo, String Formatting , Validate Email with contains( ) and startsWith() and endsWith() 
+String Creation and Basic Operations, Length and Character Access, String Comparison, String
+Searching, Substring Operations , String Modification, Whitespace Handling, String Concatenation,
+String Splitting, StringBuilder Demo, String Formatting , Validate Email with contains( ) and
+startsWith() and endsWith()
 
-[🔗 Output Screenshot](https://github.com/Sharath8i/Advanced-Java/blob/main/StringOperations/demo.png)
-
-1.Write a Java Program for Checking if a given string is null or contains only whitespace using user defined function isNullOrEmpty().
-
-[🔗 Output Screenshot](https://github.com/Sharath8i/Advanced-Java/blob/main/StringOperations/isNullOrEmpty.png)
-
-2.Write a Java Program for Counting how many times a substring appears in a main stringusing user defined function countOccurrences()
-
-[🔗 Output Screenshot](https://github.com/Sharath8i/Advanced-Java/blob/main/StringOperations/countOccurrences.png)
-
-3.Write a Java Program for Reversing the characters in a string using user defined functionreverseString().
-
-[🔗 Output Screenshot](https://github.com/Sharath8i/Advanced-Java/blob/main/StringOperations/reverseString.png)
-
-
-4.Write a Java Program for Checking if a string reads the same backward as forward (ignoring caseand punctuation) using user defined function isPalindrome():
-
-[🔗 Output Screenshot](https://github.com/Sharath8i/Advanced-Java/blob/main/StringOperations/isPalindrome.png)
-
-
-5.Write a Java Program for Eliminating all whitespace characters from a string using user definedfunction removeWhitespace()
-
-[🔗 Output Screenshot](https://github.com/Sharath8i/Advanced-Java/blob/main/StringOperations/removeWhitespace.png)
-
-
-6.Write a Java Program for Capitalizing the first letter of each word. using user defined functioncapitalizeWords()
-
-[🔗 Output Screenshot](https://github.com/Sharath8i/Advanced-Java/blob/main/StringOperations/capitalizeWords.png)
-
-
-7.Write a Java Program for Shortening a string to a specified length and adds an ellipsis using userdefined function truncate()
-
-[🔗 Output Screenshot](https://github.com/Sharath8i/Advanced-Java/blob/main/StringOperations/truncate.png)
-
-8.Write a Java Program for Verifying if a string contains only numeric characters using user definedfunction isNumeric()
-
-[🔗 Output Screenshot](https://github.com/Sharath8i/Advanced-Java/blob/main/StringOperations/isNumeric.png)
-
-
-Q9. Write a Java Program for Creating a random string of a specified length using user definedfunction generateRandomString()\\
-
-[🔗 Output Screenshot](https://github.com/Sharath8i/Advanced-Java/blob/main/StringOperations/generateRandomString.png)
-
-
-Q10. Write a Java Program for Counting the number of words in a string using user defined functioncountWords()
-
-[🔗 Output Screenshot](https://github.com/Sharath8i/Advanced-Java/blob/main/StringOperations/countWords.png)
-
+[🔗 Output Screenshot](https://github.com/Sharath8i/Advanced_Java/blob/main/3a.StringOperations/string%20operations.png)
 
 ## 3b. String Exercise progams
-### Develop a Java program to make a  Performance Test on  StringBuffer and StringBuilder for 
-appending the string ‘AIET’ for 10000 times both in the StringBuffer and StringBuilder. Justify 
-your answer which one is better
-[🔗 Output Screenshot](https://github.com/Sharath8i/Advanced-Java/blob/main/Exp3b-StringPerformanceTest/PerformanceTest.png)
 
-## String
- 1. Question: Given a string, write a method to determine if it is a palindrome (reads the same forward and backward), ignoring case and non-alphanumeric characters.
-    Input: "A man, a plan, a canal: Panama"  Output: false
-    Input: "race a car" Output: false Output: true
+Q1. Write a Java Program for Checking if a given string is null or contains only whitespace using user
+defined function isNullOrEmpty().
 
-[🔗 Output Screenshot](https://github.com/Sharath8i/Advanced-Java/blob/main/Exp3b-StringPerformanceTest/s1.png)
+[🔗 Output Screenshot](https://github.com/Sharath8i/Advanced_Java/blob/main/3b.%20String%20Exercise%20progams/StringCheckNullOrEmpty.png)
 
-2. Question: Implement a method that counts the number of vowels (a, e, i, o, u) in a given string, case-insensitive. Input: "Hello World"
- Output: 3 Input: "Programming Interview"
- Output: 6
+Q2. Write a Java Program for Counting how many times a substring appears in a main string
+using user defined function countOccurrences()
 
- [🔗 Output Screenshot](https://github.com/Sharath8i/Advanced-Java/blob/main/Exp3b-StringPerformanceTest/vowel.png)
+[🔗 Output Screenshot](https://github.com/Sharath8i/Advanced_Java/blob/main/3b.%20String%20Exercise%20progams/StringCountOccurrences.png)
 
+Q3. Write a Java Program for Reversing the characters in a string using user defined function
+reverseString().
 
+[🔗 Output Screenshot](https://github.com/Sharath8i/Advanced_Java/blob/main/3b.%20String%20Exercise%20progams/StringReverse.png)
 
-## Joining Strings
- 1. Question: Write a method that joins an array of strings with a specified delimiter, without using built-in join methods.
- Input: ["apple", "banana", "cherry"], delimiter: ", " Output: "apple, banana, cherry"
- Input: ["Java", "is", "fun"], delimiter: "-"
- Output: "Java-is-fun"
+Q4. Write a Java Program for Checking if a string reads the same backward as forward (ignoring case
+and punctuation) using user defined function isPalindrome():
 
- [🔗 Output Screenshot](https://github.com/Sharath8i/Advanced-Java/blob/main/Exp3b-StringPerformanceTest/JoinStrings.png)
+[🔗 Output Screenshot](https://github.com/Sharath8i/Advanced_Java/blob/main/3b.%20String%20Exercise%20progams/StringPalindromeCheck.png)
+
+Q5. Write a Java Program for Eliminating all whitespace characters from a string using user defined
+function removeWhitespace()
+
+[🔗 Output Screenshot](https://github.com/Sharath8i/Advanced_Java/blob/main/3b.%20String%20Exercise%20progams/StringRemoveWhitespace.png)
 
 
-2. Question: Implement a method that concatenates alternating characters from two input strings. If one string is longer than the other, append the remaining characters.
- Input: "abc", "123" Output: "a1b2c3"
- Input: "hello", "world!" Output: "hweolrllod!"
+## 3c. String Exercise progams
 
- [🔗 Output Screenshot](https://github.com/Sharath8i/Advanced-Java/blob/main/Exp3b-StringPerformanceTest/Amerge.png)
+Q6. Write a Java Program for Capitalizing the first letter of each word. using user defined function
+capitalizeWords()
 
-## Additional String Methods
- 1. Question: Create a method that finds the longest substring without repeating characters in a given string.
- Input: "abcabcbb"
-Output: "abc" (or "cab" or "abc" - any substring of length 3 without repeating characters) 
- Input: "bbbbb"
- Output: "b"
- Input: "pwwkew"
- Output: "wke" (or "kew")
+[🔗 Output Screenshot](https://github.com/Sharath8i/Advanced_Java/blob/main/3c.%20String%20Exercise%20progams/StringCapitalizeWords.png)
 
- [🔗 Output Screenshot](https://github.com/Sharath8i/Advanced-Java/blob/main/Exp3b-StringPerformanceTest/LongestUniqueSubstring.png)
- 
-2. Question: Write a method that takes a string and returns the first non-repeated character. If all characters are repeated, return null.
- Input: "swiss" Output: "w"
- Input: "aabb" Output: null
 
- [🔗 Output Screenshot](https://github.com/Sharath8i/Advanced-Java/blob/main/Exp3b-StringPerformanceTest/FirstNonRepeated.png)
+Q7. Write a Java Program for Shortening a string to a specified length and adds an ellipsis using user
+defined function truncate()
 
-## StringBuffer
- 1. Question: Implement a method using StringBuffer to reverse every word in a sentence while maintaining the word order.
- Input: "Java programming is fun" Output: "avaJ gnimmargorp si nuf"
- Input: "Hello World" Output: "olleH dlroW"
+[🔗 Output Screenshot](https://github.com/Sharath8i/Advanced_Java/blob/main/3c.%20String%20Exercise%20progams/StringTruncate.png)
 
-[🔗 Output Screenshot](https://github.com/Sharath8i/Advanced-Java/blob/main/Exp3b-StringPerformanceTest/ReverseWords.png)
+Q8. Write a Java Program for Verifying if a string contains only numeric characters using user defined
+function isNumeric()
 
-2. Question: Write a method using StringBuffer to efficiently remove all occurrences of a given character from a string.
-Input: "programming", character: 'm' Output: "prograing"
-Input: "banana", character: 'a' Output: "bnn"
+[🔗 Output Screenshot](https://github.com/Sharath8i/Advanced_Java/blob/main/3c.%20String%20Exercise%20progams/StringIsNumeric.png)
 
-[🔗 Output Screenshot](https://github.com/Sharath8i/Advanced-Java/blob/main/Exp3b-StringPerformanceTest/RemoveCharacter.png)
+Q9. Write a Java Program for Creating a random string of a specified length using user defined
+function generateRandomString()
 
-## StringBuilder
- 1. Question: Implement a method using StringBuilder to efficiently generate all possible substrings of a given string.
-Input: "abc" Output: ["a", "ab", "abc", "b", "bc", "c"]
-Input: "xy"Output: ["x", "xy", "y"]
+[🔗 Output Screenshot](https://github.com/Sharath8i/Advanced_Java/blob/main/3c.%20String%20Exercise%20progams/StringRandomGenerator.png)
 
-[🔗 Output Screenshot](https://github.com/Sharath8i/Advanced-Java/blob/main/Exp3b-StringPerformanceTest/SubstringsGenerator.png)
+Q10. Write a Java Program for Counting the number of words in a string using user defined function
+countWords()
 
-3. Question: Create a method using StringBuilder to insert a space after every n characters in a string, except at the end.
- Input: "ABCDEFGHIJKLMNOPQR", n=4  Output: "ABCD EFGH IJKL MNOP QR"
- Input: "programming", n=3  Output: "pro gra mmi ng
-
-[🔗 Output Screenshot](https://github.com/Sharath8i/Advanced-Java/blob/main/Exp3b-StringPerformanceTest/InsertSpaces.png)
+[🔗 Output Screenshot](https://github.com/Sharath8i/Advanced_Java/blob/main/3c.%20String%20Exercise%20progams/StringWordCounter.png)
 
 
 ## 4a. Basic hello program of Swing displaying the message Hello! VI C , Welcome to Swing Programming in Blue color plain font with font size of 32 using Jframe and Jlabel
-[🔗 Output Screenshot](https://github.com/Sharath8i/Advanced-Java/blob/main/Exp4-Swings1/SwingExample.png)
+[🔗 Output Screenshot](https://github.com/Sharath8i/Advanced_Java/blob/main/4.Swings/SwingExample.png)
 
 ## 4b. Develop a Swing program in Java to display a message “Srilanka is pressed” or “India is pressed” depending upon the Jbutton either Srilanka or India is pressed by implementing the event handling mechanism with addActionListener( ).
-[🔗 Output Screenshot](https://github.com/Sharath8i/Advanced-Java/blob/main/Exp4-Swings1/ButtonExample.png)
+[🔗 Output Screenshot](https://github.com/Sharath8i/Advanced_Java/blob/main/4.Swings/ButtonExample.png)
 
 ## 4c. Develop a Swing program in Java to display a message “Digital Clock is pressed” or “Hour Glass is pressed” depending upon the Jbutton with image either Digital Clock or Hour Glass is pressed by implementing the event handling mechanism with addActionListener( ).
-[🔗 Output Screenshot](https://github.com/Sharath8i/Advanced-Java/blob/main/Exp4-Swings1/ClockHourglassApp.png)
+[🔗 Output Screenshot](https://github.com/Sharath8i/Advanced_Java/blob/main/4.Swings/ClockHourglassApp.png)
 
-## 4d. Develop a simple swing program for illustrating mouse operations such as mouse down, up double click , single click with help of a button
-[🔗 Output Screenshot](https://github.com/Sharath8i/Advanced-Java/blob/main/Exp4-Swings1/MouseOperationsDemo.png)
 
 ## 5a. Develop a Swing program in Java to add the countries USA, India, Vietnam, Canada, Denmark, France, Great Britain, Japan, Africa, Greenland, Singapore into a JList and display them on console whenever the countries are selected on the list.
 
-[🔗 Output Screenshot](https://github.com/Sharath8i/Advanced-Java/blob/main/Exp5-Swings2/JListExample.png)
+[🔗 Output Screenshot](https://github.com/Sharath8i/Advanced_Java/blob/main/5.Swing/JListExample.png)
 
 ## 5b. Develop a Swing program in Java to create a Tabbed Pan of RED, BLUE and GREEN and display the concerned color whenever the specific tab is selected in the Pan.
 
-[🔗 Output Screenshot](https://github.com/Sharath8i/Advanced-Java/blob/main/Exp5-Swings2/TabbedPaneExample.png)
+[🔗 Output Screenshot](https://github.com/Sharath8i/Advanced_Java/blob/main/5.Swing/TabbedPaneExample.png)
 
 
 ## 5c. Develop a Swing program in Java to add the countries USA, India, Vietnam, Canada, Denmark, France, Great Britain, Japan, Africa, Greenland, Singapore into a JList and display the capital of the countries on console whenever the countries are selected on the list.
 
-[🔗 Output Screenshot](https://github.com/Sharath8i/Advanced-Java/blob/main/Exp5-Swings2/CountryCapitalList.png)
+[🔗 Output Screenshot](https://github.com/Sharath8i/Advanced_Java/blob/main/5.Swing/CountryCapitalList.png)
 
 ## 5d. Develop a Swing program in Java to create a Tabbed Pan of Cyan, Magenta and Yellow and display the concerned color whenever the specific tab is selected in the Pan
 
-[🔗 Output Screenshot](https://github.com/Sharath8i/Advanced-Java/blob/main/Exp5-Swings2/ColorTabbedPane.png)
+[🔗 Output Screenshot](https://github.com/Sharath8i/Advanced_Java/blob/main/5.Swing/ColorTabbedPane.png)
 
 
 6a. Build a servlet program to find the factorial of a number using HTML with step by step procedure.
