@@ -177,8 +177,7 @@ countWords()
 [🔗 Output Screenshot 2](https://github.com/Sharath8i/Advanced_Java/blob/main/Lab7_CookieManagement/Cookie%20Management2.png)
 [🔗 Output Screenshot 3](https://github.com/Sharath8i/Advanced_Java/blob/main/Lab7_CookieManagement/Cookie%20Management3.png)
 
-## 8a Q1. Read all the existing records from the table coffee which is from the database test and insert a new coffee product into it [Create a table coffee with fields ( id,coffee_name,price)] using HTML
-## and JSP to get the fields and display the results respectively
+## 8a Q1. Read all the existing records from the table coffee which is from the database test and insert a new coffee product into it [Create a table coffee with fields ( id,coffee_name,price)] using HTML and JSP to get the fields and display the results respectively
 
 [🔗 Output Screenshot](https://github.com/Sharath8i/Advanced_Java/blob/main/Lab8/8a_8b/addCoffee1..png)
 [🔗 Output Screenshot](https://github.com/Sharath8i/Advanced_Java/blob/main/Lab8/8a_8b/addCoffee.png)
